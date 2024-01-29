@@ -37,7 +37,7 @@ This is a list of all gameinfo.txt keys supported by the engine. Be aware that t
 | `ambient1`       | string     | Empty string    | Automatic ambient sound |
 | `ambient2`       | string     | Empty string    | Automatic ambient sound |
 | `ambient3`       | string     | Empty string    | Automatic ambient sound |
-| `basedir`        | string     | `valve`         | Game base directory, used to share assets between games |
+| `basedir`        | string     | `myxg`         | Game base directory, used to share assets between games |
 | `date`           | string     | Empty string    | Game release date. Unused. |
 | `dllpath`        | string     | `cl_dlls`       | Game DLL path. Engine will search custom DLLs (client or menu, for example) in this directory, except `gamedll`, see below. |
 | `fallback_dir`   | string     | Empty string    | Additional game base directory |

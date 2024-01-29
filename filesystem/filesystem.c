@@ -633,7 +633,7 @@ static void FS_InitGameInfo( gameinfo_t *GameInfo, const char *gamedir )
 
 	// filesystem info
 	Q_strncpy( GameInfo->gamefolder, gamedir, sizeof( GameInfo->gamefolder ));
-	Q_strncpy( GameInfo->basedir, "valve", sizeof( GameInfo->basedir ));
+	Q_strncpy( GameInfo->basedir, "myxg", sizeof( GameInfo->basedir ));
 	GameInfo->falldir[0] = 0;
 	Q_strncpy( GameInfo->startmap, "c0a0", sizeof( GameInfo->startmap ));
 	Q_strncpy( GameInfo->trainmap, "t0a0", sizeof( GameInfo->trainmap ));

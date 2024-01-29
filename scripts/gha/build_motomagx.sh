@@ -5,8 +5,8 @@
 
 cd $GITHUB_WORKSPACE || die
 
-mkdir -p Xash/valve/cl_dlls
-mkdir -p Xash/valve/dlls
+mkdir -p Xash/myxg/cl_dlls
+mkdir -p Xash/myxg/dlls
 
 pushd hlsdk || die
 ./waf configure -T fast --enable-magx --enable-simple-mod-hacks build install --destdir=../Xash || die

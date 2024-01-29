@@ -24,7 +24,7 @@ cd "$XASH3D_BASEDIR" || die "Can't cd into $XASH3D_BASEDIR"
 echo "XASH3D_BASEDIR is $XASH3D_BASEDIR"
 
 #if [ -z "$XASH3D_EXTRAS_PAK1" ]; then
-#        export XASH3D_EXTRAS_PAK1=/app/share/xash3d/valve/extras.pk3
+#        export XASH3D_EXTRAS_PAK1=/app/share/xash3d/myxg/extras.pk3
 #fi
 #echo "XASH3D_EXTRAS_PAK1 is $XASH3D_EXTRAS_PAK1"
 

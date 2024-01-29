@@ -80,7 +80,7 @@ fi
 echo "Xash3D FWGS installed as AppImage."
 echo "Base directory is $XASH3D_BASEDIR. Set XASH3D_BASEDIR environment variable to override this"
 
-export XASH3D_EXTRAS_PAK1="${APPDIR}"/valve/extras.pk3
+export XASH3D_EXTRAS_PAK1="${APPDIR}"/myxg/extras.pk3
 ${DEBUGGER} "${APPDIR}"/xash3d "$@"
 exit $?
 EOF
