@@ -641,10 +641,10 @@ static void FS_InitGameInfo( gameinfo_t *GameInfo, const char *gamedir )
 	GameInfo->version = 1.0f;
 
 	// .dll pathes
-	Q_strncpy( GameInfo->dll_path, "cl_dlls", sizeof( GameInfo->dll_path ));
-	Q_strncpy( GameInfo->game_dll, "dlls/hl.dll", sizeof( GameInfo->game_dll ));
-	Q_strncpy( GameInfo->game_dll_linux, "dlls/hl.so", sizeof( GameInfo->game_dll_linux ));
-	Q_strncpy( GameInfo->game_dll_osx, "dlls/hl.dylib", sizeof( GameInfo->game_dll_osx ));
+	Q_strncpy( GameInfo->dll_path, "bin", sizeof( GameInfo->dll_path ));
+	Q_strncpy( GameInfo->game_dll, "bin/server.dll", sizeof( GameInfo->game_dll ));
+	Q_strncpy( GameInfo->game_dll_linux, "bin/server.so", sizeof( GameInfo->game_dll_linux ));
+	Q_strncpy( GameInfo->game_dll_osx, "bin/server.dylib", sizeof( GameInfo->game_dll_osx ));
 
 	// .ico path
 	Q_strncpy( GameInfo->iconpath, "game.ico", sizeof( GameInfo->iconpath ));

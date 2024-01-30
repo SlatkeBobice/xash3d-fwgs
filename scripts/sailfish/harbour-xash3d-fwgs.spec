@@ -70,8 +70,8 @@ convert game_launch/icon-xash-material.png -resize 172x172 %{buildroot}/%{_datad
 %attr(755,root,root) %{_bindir}/%{name}
 %attr(755,root,root) %{_datadir}/%{name}/lib/*
 %attr(644,root,root) %{_datadir}/%{name}/rodir/myxg/extras.pk3
-%attr(755,root,root) %{_datadir}/%{name}/rodir/myxg/cl_dlls/*
-%attr(755,root,root) %{_datadir}/%{name}/rodir/myxg/dlls/*
+%attr(755,root,root) %{_datadir}/%{name}/rodir/myxg/bin/*
+%attr(755,root,root) %{_datadir}/%{name}/rodir/myxg/bin/*
 %attr(644,root,root) %{_datadir}/icons/hicolor/86x86/apps/%{name}.png
 %attr(644,root,root) %{_datadir}/icons/hicolor/108x108/apps/%{name}.png
 %attr(644,root,root) %{_datadir}/icons/hicolor/128x128/apps/%{name}.png

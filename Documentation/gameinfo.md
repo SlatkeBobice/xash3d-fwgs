@@ -39,10 +39,10 @@ This is a list of all gameinfo.txt keys supported by the engine. Be aware that t
 | `ambient3`       | string     | Empty string    | Automatic ambient sound |
 | `basedir`        | string     | `myxg`         | Game base directory, used to share assets between games |
 | `date`           | string     | Empty string    | Game release date. Unused. |
-| `dllpath`        | string     | `cl_dlls`       | Game DLL path. Engine will search custom DLLs (client or menu, for example) in this directory, except `gamedll`, see below. |
+| `dllpath`        | string     | `bin`       | Game DLL path. Engine will search custom DLLs (client or menu, for example) in this directory, except `gamedll`, see below. |
 | `fallback_dir`   | string     | Empty string    | Additional game base directory |
 | `gamedir`        | string     | Current gamedir | Game directory, ignored in FWGS, as game directory is defined by the game directory name |
-| `gamedll`        | string     | `dlls/hl.dll`   | Game server DLL for 32-bit x86 Windows (see LibraryNaming.md for details) |
+| `gamedll`        | string     | `bin/hl.dll`   | Game server DLL for 32-bit x86 Windows (see LibraryNaming.md for details) |
 | `gamemode`       | string     | Empty string    | Game type. When set to `singleplayer_only` or `multiplayer_only` marks the game as SP or MP only respectively, hiding the option in game UI. Omitting this key or using custom values mark the game as both MP and SP compatible. |
 | `icon`           | string     | `game.ico`      | Game icon. Engine will automatically append .ico and may automatically switch to .tga icon as well |
 | `max_beams`      | integer    | 128             | Beams limit, 64 min, 512 max |
